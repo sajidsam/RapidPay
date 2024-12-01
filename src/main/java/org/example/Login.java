@@ -97,12 +97,12 @@ public class Login {
         loginPanel.add(passField);
 
         // Login button
-        JButton loginButton = new JButton("Login");
+        JButton loginButton = new Button();
+        loginButton.setText("Login");
         loginButton.setBounds(130, 190, 100, 40);
         loginButton.setFont(new Font("Arial", Font.BOLD, 16));
         loginButton.setBackground(new Color(0, 123, 255)); // Blue background
         loginButton.setForeground(Color.WHITE);
-        loginButton.setBorder(createRoundedBorder(20, new Color(0, 123, 255), 2)); // Rounded border
         loginButton.setFocusPainted(false);
         loginButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
         loginButton.addMouseListener(new java.awt.event.MouseAdapter() {
