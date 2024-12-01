@@ -39,5 +39,6 @@ public class LoginPage {
         frame.add(mainPanel);
         frame.setVisible(true);
         //gitcheckUP
+        //git check 2
     }
 }
